@@ -10,6 +10,10 @@ public class Main {
 
     List<String> lines = Files.readAllLines(Paths.get("input.text"), Charset.defaultCharset());
 
+//    for (String x:lines) {
+//      // processing all the lines we need
+//    }
+    
     int a = Integer.parseInt(lines.get(0));
     int b = Integer.parseInt(lines.get(1));
     int c = a + b;
@@ -21,7 +25,7 @@ public class Main {
     out.close();
 
   }
-  
+
 }
 
 
